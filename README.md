@@ -1,6 +1,3 @@
-Here is the complete, detailed `README.md` file for your full-stack Student Management app repository, covering frontend and backend launch instructions, prerequisites, and deployment notes:
-
-```markdown
 # Student Management Application
 
 This repository contains a full-stack Student Management System with:
