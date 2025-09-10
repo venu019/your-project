@@ -74,7 +74,7 @@ The frontend React app will run at: `http://localhost:3000`
 
 ## How It Works
 
-- The React frontend communicates with the Spring Boot backend at `http://localhost:8080/api`.
+- The React frontend communicates with the Spring Boot backend at `http://localhost:9001/api`.
 - Ensure backend is running before using the frontend.
 - Login credentials:  
   - Username: `admin`  
@@ -106,7 +106,7 @@ This creates a `build/` folder with static files to be deployed on a static host
 
 - For database setup, create MySQL DB `learnzo` or change database name in `application.properties`.
 - Use provided Spring Boot entities and REST API endpoints to manage students.
-- Frontend supports seat booking, JWT authentication, PDF export, and printing features.
+- Frontend supports PDF export.
 
 ---
 
@@ -118,10 +118,3 @@ Open issues on this repo for any questions or help.
 
 Enjoy your student management app!
 
-```
-
-***
-
-This README is ready to place at the root of your repo and provides clear step-by-step instructions for running and deploying both frontend and backend of your full-stack app.
-
-Let me know if any other specific docs or deployment guides are needed!
